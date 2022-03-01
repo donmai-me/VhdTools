@@ -16,7 +16,7 @@ foreach (var f in files)
     Directory.CreateDirectory(Directory.GetParent(saveDir).FullName);
     
     var fs = File.Create(saveDir);
-    var ntfsFs = ntfs.OpenFile(file, FileMode.Open);
+    var ntfsFs = ntfs.OpenFile(f, FileMode.Open);
 
     var buffer = new byte[2048];
     int i;

@@ -87,7 +87,7 @@ public static class Files
 
         foreach (var vhd in vhds.Select((s, i) => new {Value = s, Index = i}))
         {
-            Console.WriteLine($"{vhd.Index - 1}: {vhd.Value}");
+            Console.WriteLine($"{vhd.Index}: {vhd.Value}");
         }
 
         Console.WriteLine("Give indices of parent and child VHDs to extract (In reverse chronological order, parent VHD is last)");
