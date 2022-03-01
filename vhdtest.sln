@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildVhdExtract", "ChildVhdExtract\ChildVhdExtract.csproj", "{0C2030D8-C250-479E-8F58-C86BDB4A0848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhdChangedFiles", "VhdChangedFiles\VhdChangedFiles.csproj", "{9088D6F3-FEF1-470D-B6D0-65D188B81C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VhdLib", "VhdLib\VhdLib.csproj", "{B5CCB2B5-9494-4A58-AA58-FDF5D7807F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullVhdExtract", "FullVhdExtract\FullVhdExtract.csproj", "{A6ACBB18-CB9F-4383-A8EA-42949FA3F843}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C2030D8-C250-479E-8F58-C86BDB4A0848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2030D8-C250-479E-8F58-C86BDB4A0848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2030D8-C250-479E-8F58-C86BDB4A0848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2030D8-C250-479E-8F58-C86BDB4A0848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9088D6F3-FEF1-470D-B6D0-65D188B81C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9088D6F3-FEF1-470D-B6D0-65D188B81C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9088D6F3-FEF1-470D-B6D0-65D188B81C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9088D6F3-FEF1-470D-B6D0-65D188B81C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CCB2B5-9494-4A58-AA58-FDF5D7807F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CCB2B5-9494-4A58-AA58-FDF5D7807F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CCB2B5-9494-4A58-AA58-FDF5D7807F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CCB2B5-9494-4A58-AA58-FDF5D7807F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ACBB18-CB9F-4383-A8EA-42949FA3F843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ACBB18-CB9F-4383-A8EA-42949FA3F843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ACBB18-CB9F-4383-A8EA-42949FA3F843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ACBB18-CB9F-4383-A8EA-42949FA3F843}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
