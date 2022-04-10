@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using DiscUtils.Ntfs;
 using DiscUtils.Streams;
 using DiscUtils.Vhd;
 
@@ -13,11 +12,8 @@ namespace ChildVhdExtract
             var vhdPath = args[0];
 
             var diskImage = new DiskImageFile(vhdPath, FileAccess.Read);
-            // foreach (var parentLocation in diskImage.GetParentLocations())
-            // {
-            //     Console.WriteLine(parentLocation);
-            // }
             var info = diskImage.Information;
+            
             Console.WriteLine($"Disc geometry is {info.Geometry}");
             Console.WriteLine($"Disc type {info.DiskType}");
             Console.WriteLine($"Number of extents {diskImage.Extents.Count}");

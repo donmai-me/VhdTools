@@ -13,7 +13,7 @@ foreach (var f in files)
 {
     var file = f.Replace("\\", "/");
     var saveDir = "./output/" + file;
-    Directory.CreateDirectory(Directory.GetParent(saveDir).FullName);
+    Directory.CreateDirectory(Directory.GetParent(saveDir)?.FullName ?? throw new InvalidOperationException());
     
     var fs = File.Create(saveDir);
     var ntfsFs = ntfs.OpenFile(f, FileMode.Open);

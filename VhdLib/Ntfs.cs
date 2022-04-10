@@ -23,8 +23,8 @@ public class Ntfs
         var realParentStream = new OffsetStream(disk.Content, bpmIndex - 3);
         return new NtfsFileSystem(realParentStream);
     }
-    
-    public static long FindPosition(Stream stream, byte[] sequence)
+
+    private static long FindPosition(Stream stream, byte[] sequence)
     {
         if (sequence.Length > stream.Length)
         {
